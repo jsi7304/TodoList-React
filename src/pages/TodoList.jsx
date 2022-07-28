@@ -16,7 +16,6 @@ function TodoList() {
     });
     setTodos(doneList);
   };
-  // [{id:0,title:title,isDone:false},{id:1,title:title,isDone:true},{id:2,title:title,isDone:false}]
 
   const addTodo = (todo) => {
     const newTodos = [...todos, todo];
@@ -24,8 +23,7 @@ function TodoList() {
   };
 
   const removeTodo = (id) => {
-    setTodos(todos.filter((todo) => todo.id !== id));
-    console.log(id);
+    setTodos(todos.filter((todo) => todo.id !== id)); //id가 같지 않은것만 담는데 같지않은게 없으니까 없어진다
   };
 
   return (

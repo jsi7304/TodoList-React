@@ -23,8 +23,6 @@ function Form({addTodo}) {
       isDone:false,
       }
     title!==""&&input!==""? addTodo(todo):alert('입력하세요')
-    setTitle('')
-    setInput('')
   }
   
 
