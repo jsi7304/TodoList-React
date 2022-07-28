@@ -1,0 +1,30 @@
+.todo-form{
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:20px;
+  border-radius: 10px;
+}
+
+div>label{
+  font-weight:bold;
+}
+
+div>input{
+  margin: 20px;
+  width: 20vw;
+  border:1px solid white;
+  border-radius: 10px;
+  height: 4vh;
+}
+
+.todo-button>button{
+  background-color: #496b7b;
+  width: 150px;
+  height: 4vh;
+  border-radius: 10px;
+  color: white;
+  font-weight:bold;
+  border:1px solid #496b7b;
+}

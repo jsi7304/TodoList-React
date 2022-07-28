@@ -1,0 +1,8 @@
+.layout{
+  min-width: 800px;
+  max-width: 1200px;
+  padding: 0 10px;
+  box-sizing: content-box;
+  margin: 0 auto;
+  
+}
